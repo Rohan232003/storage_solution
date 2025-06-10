@@ -63,7 +63,7 @@ setIsLoading(false);
       </AlertDialogTitle>
       <AlertDialogDescription className="subtittle-2 text-center text-dark-100 pt-7">
         We send the OTP to {""}
-        <span className="pl-1 text-brand">abc@gmail.com</span>
+        <span className="pl-1 text-brand">{email}</span>
       </AlertDialogDescription>
     </AlertDialogHeader>
     <InputOTP maxLength={6} value={password} onChange={setPassword}>
